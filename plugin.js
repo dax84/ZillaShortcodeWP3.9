@@ -1,11 +1,7 @@
 (function($) {
 "use strict";   
  
-    tinymce.init({
-        selector: ".wp-editor-area",
-        toolbar: "shortcodes",
-        setup: function(editor) {
-			
+
 			
  			//Shortcodes
             tinymce.PluginManager.add( 'zillaShortcodes', function( editor, url ) {
@@ -36,8 +32,6 @@
          
           });
          
-        }
-         
-    });
+
  
 })(jQuery);
